@@ -1,0 +1,1 @@
+print(f"{(valor_1 := int(input('Informe o primeiro valor: '))) and ''}" f"{(valor_2 := int(input('Informe o segundo valor: '))) and ''}" f"{(valor_3 := (valor_1 + valor_2) if (valor_1 + valor_2) > 10 else None)}")
