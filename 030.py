@@ -1,0 +1,1 @@
+(f"{(temperatura := int(input('Insira a temperatura desejada para trabalhar o alumínio (em °C): '))) and ''}{('Temperatura Inválida' if temperatura <= 500 else ('Aquecimento Ligado em 100%' if temperatura < 700 else ('Aquecimento Ligado em 50%' if temperatura < 735 else ('Aquecimento Desligado' if temperatura >= 735 else 'Superaquecimento'))))}")

@@ -1,0 +1,1 @@
+print(f"{(salario := float(input('Insira o salário atual do funcionário: '))) and ''}{(aumento := 0.55 if salario < 10000 else 0.20 if salario <= 25000 else 0.20) and ''}{(salario_corrigido := salario * (1 + aumento)) and ''}O índice de aumento é {aumento * 100:.0f}% e o valor do salário corrigido é R$ {salario_corrigido:.2f}.")

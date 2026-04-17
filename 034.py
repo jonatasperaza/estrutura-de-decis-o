@@ -1,0 +1,1 @@
+print(f"{(num := int(input('Insira um número inteiro de 4 dígitos: '))) and ''}{('O número não tem 4 dígitos.' if num < 1000 or num > 9999 else (f'O número {num} obedece à característica.' if (num // 100 + num % 100) ** 2 == num else f'O número {num} não obedece à característica.'))}")

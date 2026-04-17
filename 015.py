@@ -1,0 +1,1 @@
+print(f"{(valor_compra := float(input('Insira o valor do produto: '))) and ''}{(valor_venda := valor_compra * 1.45 if valor_compra < 20 else valor_compra * 1.30) and ''}O valor da venda é R$ {valor_venda:.2f}.")

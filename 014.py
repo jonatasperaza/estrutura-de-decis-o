@@ -1,0 +1,1 @@
+print(f"{(estado := input('Insira a sigla do estado: ')) and ''}{('Carioca' if estado.upper() == 'RJ' else 'Paulista' if estado.upper() == 'SP' else 'Mineiro' if estado.upper() == 'MG' else 'Outros')}")

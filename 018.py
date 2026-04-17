@@ -1,0 +1,1 @@
+print(f"{(num1 := float(input('Insira o primeiro valor: '))) and ''}{(num2 := float(input('Insira o segundo valor: '))) and ''}{(f'O maior valor é {num1}.' if num1 > num2 else f'O maior valor é {num2}.')}")

@@ -1,0 +1,1 @@
+print(f"{(nota1 := float(input('Insira a nota da 1a avaliação: '))) and ''}{(nota2 := float(input('Insira a nota da 2a avaliação: '))) and ''}{(media := (nota1 + nota2) / 2) and ''}{('Aprovado' if media >= 7 else (f'{("Aprovado" if (media_exame := float(input("Insira a nota do exame: ")) + media) / 2 >= 5 else "Reprovado")}. Média final: {(media_exame + media) / 2:.2f}'))}")

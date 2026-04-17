@@ -1,0 +1,1 @@
+print(f"{(num1 := float(input('Insira o primeiro valor: '))) and ''}{(num2 := float(input('Insira o segundo valor: '))) and ''}{(f'Os valores em ordem crescente são: {num1} e {num2}.' if num1 < num2 else f'Os valores em ordem crescente são: {num2} e {num1}.')}")

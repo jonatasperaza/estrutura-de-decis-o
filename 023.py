@@ -1,0 +1,1 @@
+print(f"{(nota1 := float(input('Insira a primeira nota parcial: '))) and ''}{(nota2 := float(input('Insira a segunda nota parcial: '))) and ''}{(media := (nota1 + nota2) / 2) and ''}{(conceito := 'A' if media >= 9 else 'B' if media >= 7.5 else 'C' if media >= 6 else 'D' if media >= 4 else 'E') and ''}{('APROVADO' if conceito in 'ABC' else 'REPROVADO')}")

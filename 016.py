@@ -1,0 +1,1 @@
+print(f"{(months := ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro']) and ''}{(num := int(input('Insira um número de 1 a 12: '))) and ''}{(months[num - 1] if 1 <= num <= 12 else 'Número inválido.')}")
